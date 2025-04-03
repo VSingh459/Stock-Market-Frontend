@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Stock Market Analysis</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <header>
+            <h1> Stock Market Analysis</h1>
+        </header>
+        <main>
+            <div id="main-container">
+                 <section id="chart">
+                     <div id="chartDiv" class="charter">
+
+                     </div>
+                     <div class="timer">
+                        <button id="1mo">1 Month</button>
+                        <button id="3mo">3 Months</button>
+                        <button id="1y">1 Year</button>
+                        <button id="5y">5 Years</button>
+                    </div>
+                     
+                 </section>
+
+                 <section id="list">
+                    <div class="LE"> 
+                     <ul class="LI" style="list-style-type:none;">
+                         <li><button id="a">AAPL</button> <span>$3.953</span> <span style="color: green;">0.24%</span></li>
+                         <li><button id="b">MSFT</button> <span>$26.178</span> <span style="color: green;">0.33%</span></li>
+                         <li><button id="c">GOOGL</button> <span>$20.507</span> <span style="color: green;">0.21%</span></li>
+                         <li><button id="d">AMZN</button> <span>$15.064</span> <span style="color: green;">0.01%</span></li>
+                         <li><button id="e">PYPL</button> <span>$17.699</span> <span style="color: green;">0.10%</span></li>
+                         <li><button id="f">TSLA</button> <span>$14.129</span> <span style="color: red;">0.00%</span></li>
+                         <li><button id="g">JPM</button> <span>$98.108</span> <span style="color: green;">0.35%</span></li>
+                         <li><button id="h">NVDA</button> <span>$9.915</span> <span style="color: green;">0.19%</span></li>
+                         <li><button id="i">NFLX</button> <span>$46.654</span> <span style="color: red;">0.00%</span></li>
+                         <li><button id="l">DIS</button> <span>$53.563</span> <span style="color: green;">0.01%</span></li>
+                     </ul>
+                    </div>
+                 </section>
+
+            </div>
+            
+            <!-- Detail Section Detail Section -->
+
+            <section id="detailer"> 
+                <div class="spDiv">
+                 <span id="d1"> AAPL </span>
+                <span id="d2"> 0.24493% </span>
+                <span id="d3"> $3.953 </span>
+                </div>
+                <p id="sum">
+                    "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple TV, Apple Watch, Beats products, and HomePod.
+                     It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts. In addition, the company offers various services, such as Apple Arcade, a game subscription service; Apple Fitness+,
+                      a personalized fitness service;
+                      Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV+, which offers exclusive original content; Apple Card,
+                       a co-branded credit card; and Apple Pay,
+                      a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets.
+                     It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers, wholesalers, retailers, and resellers.
+                      Apple Inc. was incorporated in 1977 and is headquartered in Cupertino, California."
+                </p>
+                
+            </section>
+            
+
+        </main>
+
+        <script src="analysis2.js"></script>
+    </body>
+</html>
